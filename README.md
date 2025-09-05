@@ -1,89 +1,86 @@
-Fly By YTeam - Floating GUI
+# ✨ Fly By YTeam - Floating GUI ✨
 
-Versi: 1.0
-Pembuat: Ry
+**Versi:** 1.0  
+**Pembuat:** Ry
 
+Script ini adalah **GUI Floating Fly** untuk Roblox yang memungkinkan pemain untuk **terbang bebas** di dunia game dengan kontrol naik/turun dan pengaturan kecepatan terbang. GUI dapat **digeser, diminimalkan**, dan memiliki efek **RGB pada copyright**.
 
+---
 
-Deskripsi
+## 🚀 Fitur Utama
 
-Script ini adalah GUI Floating Fly untuk Roblox yang memungkinkan pemain untuk terbang secara bebas di dunia game dengan kontrol ke atas/bawah dan pengaturan kecepatan terbang. GUI dapat digerakkan, diminimalkan, dan memiliki efek warna RGB pada copyright.
+- 🖼 **Floating Icon**  
+  - Menampilkan atau menyembunyikan GUI utama kapan saja.  
 
-Fitur utama:
+- ✈️ **Fly ON/OFF**  
+  - Aktifkan atau nonaktifkan mode terbang dengan satu tombol.  
 
-Floating icon untuk menampilkan/menyembunyikan GUI
+- 🔼🔽 **Kontrol Naik/Turun**  
+  - Gunakan tombol UP untuk naik dan DOWN untuk turun.  
 
-Tombol ON/OFF Fly
+- ➕➖ **Kecepatan Terbang**  
+  - Atur kecepatan terbang dengan tombol + / -.  
 
-Tombol UP/DOWN untuk naik/turun
+- 🖱️ **Draggable & Minimizable GUI**  
+  - GUI dapat digeser, diminimalkan (_minimize_), dan dikembalikan (^ restore).  
+  - Floating icon tetap terlihat meskipun GUI diminimalkan.  
 
-Kontrol kecepatan terbang dengan tombol + dan -
+- 🌈 **Animasi RGB**  
+  - Efek warna RGB pada copyright.  
 
-GUI dapat diminimalkan dan digeser
+- 🧍 **Kompatibilitas Karakter**  
+  - Mendukung R6 dan R15.  
 
-Animasi RGB pada copyright
+---
 
-Kompatibel dengan karakter R6 dan R15
+## 🕹️ Cara Menggunakan
 
-
-Cara Menggunakan
-
-1. Salin script ke LocalScript di StarterPlayerScripts atau GUI client.
-
-
-2. Jalankan Roblox dan pastikan script aktif.
-
-
-3. Klik Floating Icon untuk menampilkan GUI utama.
-
-
+1. Salin script ke **LocalScript** di `StarterPlayerScripts` atau GUI client.  
+2. Jalankan Roblox dan pastikan script aktif.  
+3. Klik **Floating Icon** untuk menampilkan GUI utama.  
 4. Gunakan tombol:
+   - **ON/OFF** → Mengaktifkan/menonaktifkan mode fly.  
+   - **UP** → Naik.  
+   - **DOWN** → Turun.  
+   - **+ / -** → Mengatur kecepatan terbang.  
+5. Gunakan tombol **_** untuk minimize GUI dan **^** untuk restore.  
+6. Klik **X** untuk menutup GUI sepenuhnya.  
 
-ON/OFF: Mengaktifkan atau menonaktifkan mode fly.
-
-UP: Naik.
-
-DOWN: Turun.
-
-+/-: Mengatur kecepatan terbang.
-
-
-
-5. Gunakan tombol _ untuk minimize dan ^ untuk restore GUI.
+---
 
 
-6. Klik X untuk menutup GUI sepenuhnya.
+## 🕹️ Cara Run Script
+1. Salin Link Loader Dan masuk Kedalam Executor Roblox Kalian Paste Di Situ
+2. Ini Untuk Link Loader Nya !!
+   - loadstring(game:HttpGet("https://raw.githubusercontent.com/Saputra0231/Fly-Hack-V5/refs/heads/main/FlyHackV5.lua"))()
+
+---
 
 
+## ⚙️ Fitur Teknis
 
-Fitur Teknis
+- Menggunakan **BodyGyro** dan **BodyVelocity** untuk mekanisme terbang.  
+- Mengatur **HumanoidStateType** agar karakter tidak jatuh saat fly aktif.  
+- Freeze animasi karakter saat mode fly aktif.  
+- Floating GUI dapat di-drag menggunakan Mouse atau Touch.  
 
-Menggunakan BodyGyro dan BodyVelocity untuk mekanisme terbang.
+---
 
-Mengatur HumanoidStateType agar karakter tidak jatuh saat mode fly aktif.
-
-Mendukung R6 dan R15.
-
-Mengatur animasi karakter agar freeze saat terbang.
-
-Floating GUI bisa di-drag menggunakan Mouse atau Touch.
-
-Floating icon tetap terlihat meskipun GUI diminimalkan.
-
-
-Catatan
-
-Script ini membutuhkan LocalPlayer untuk berjalan.
-
-Disarankan untuk tidak menjalankan script bersamaan dengan script lain yang mengubah HumanoidStateType atau BodyVelocity.
-
-GUI ini bersifat client-side sehingga hanya terlihat oleh pemain yang menjalankannya.
-
-
-Screenshot
+## 📷 Screenshot
 
 ![Screenshot](https://github.com/Saputra0231/Fly-Hack-V5/blob/main/Screenshot_20250905-190528_Roblox.png)
 
-Lisensi
+---
 
-© Copyright By Ry
+## ⚠️ Catatan
+
+- Script ini **hanya client-side**, hanya terlihat oleh pemain yang menjalankannya.  
+- Disarankan **tidak menjalankan script bersamaan** dengan script lain yang mengubah HumanoidStateType atau BodyVelocity.  
+- Membutuhkan **LocalPlayer** untuk berjalan.  
+
+---
+
+## 📜 Lisensi
+
+© Copyright By Ry  
+Dilarang memperjualbelikan atau mengklaim script ini tanpa izin.
